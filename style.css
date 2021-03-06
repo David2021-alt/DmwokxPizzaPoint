@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body 
+{
+    background-image: url("Pizza.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 70px;
+    width: 150px;
+    text-align: center;
+    
+}
+ul {
+    background-color: green;
+    text-align: center;
+    color: honeydew;
+    display: inline-flex;
+    padding-left: 135px;
+    padding-bottom: 50px;
+    
+
+    
+
+
+
+}
+ul li {
+width: 100px;
+height: 50px;
+padding-top: 30px;
+margin-right: 45px;
+padding-bottom: 40px;
+}
+
+li:hover {
+    transition: 3s;
+    -webkit-transition: 3s;
+    -moz-transition: 3s;
+    -ms-transition: 3s;
+    -o-transition: 3s;
+    flex: 3;
+    background-color: black;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    
+
+}
+.active ul li:hover {
+    background-color:rgb(8, 12, 1);
+    border: radius 3px;;
+    
+}
+.sub-menu-1.fa {
+    margin-right: 15px;
+
+}
+
+.sub-menu-1 {
+    display: Show;
+    margin-right: 8px;
+    
+    
+}
+.sub-menu-1 ul li {
+display: block;
+position:absolute;
+background-color: darkseagreen;
+margin-top: 10px;
+margin-left: -10px;
+
+}
+.menu-bar ul li a{
+text-decoration: ;
+color: #fff;
+
+}
+.active, .menu-bar ul li:hover{
+    background:;
+    #2bab0dborder-radius:3px;
+    
+}
+.menu-bar .fa {
+    margin-right: 8px;
+
+}
+.sub-menu-1 {
+display: none;
+
+}
+
+.menu-bar ul li:hover .sub-menu-1{
+display: block;
+position:absolute
+background: black;
+margin-top: 15px;
+margin-left: -15px
+}
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background-color: rgb(8, 12, 1);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    text-align: left;
+}
+
