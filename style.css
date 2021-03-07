@@ -245,7 +245,7 @@ margin-left: -15px
     bottom: -30px;
     right: 20px;
     padding-top: 80px;
-    background-color: rgb(231, 199, 17);
+    background-color: green;
     color: white;
     cursor: pointer;
     border-radius: 5px;
@@ -288,4 +288,16 @@ input [type=text], select{
     -o-border-radius: 4px;
     box-sizing: border-box;
     
+}
+input [type=text], .Delivery-Location{
+    max-width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    box-sizing: border-box;
 }
