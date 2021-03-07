@@ -38,33 +38,46 @@
             <div class="products">
                 <div class="product">
                     <img src="/Pizza.jpg" <div class="product-info">
-                    <div class="Pizza-types">
-                        <button>Size</button>
-                        <ul>
-                            <li><a href="#">Small</a></li>
-                            <li><a href="#">Medium</a></li>
-                            <li><a href="#">Large</a></li>
-                        </ul>
-                    </div>
-                    <div class="Crust-types">
-                        <button>Crust</button>
-                        <ul>
-                            <li><a href="#">Crispy</a></li>
-                            <li><a href="#">Stuffed</a></li>
-                            <li><a href="#">Gluten-Free</a></li>
-                        </ul>
-                    </div>
-                    <h2 class="product-price">Kes 900</h2>
-                    <p class="product-quantity">Qnt: <input value="1" name="">
-                    <p class="product-remove">
-                        <i class="fa fa-trash" aria-hidden="true"></i>
-                        <span class="Remove">Remove</span>
-                    </p>
+                    <div class="Pizza-requisition-form">
+                        <form>
+                            <label for="name">Pizza Size</label>
 
+                            <select id="Pizza Size">
+                                <option value="Pizza Size"> Select your desired Size</option>
+                                <option value="Pizza Size"> Small</option>
+                                <option value="Pizza Size"> Medium</option>
+                                <option value="Pizza Size"> Large</option>
+                            </select>
+                        </form>
+                        <form>
+                            <label for="name">Pizza Crust</label>
+                            <select id="Pizza Size">
+                                <option value="Pizza Crust"> Select your desired Crust</option>
+                                <option value="Pizza Crust"> Cripsy</option>
+                                <option value="Pizza Crust"> Stuffed</option>
+                                <option value="Pizza Crust"> Glutten-Free</option>
+                        </form>
+                    </div>
                 </div>
+
+                <p class="product-quantity">Quantity: <input value="1" name="">
+
+
+                <p class="product-quantity">Quantity: <input value="1" name="">
+                <h2 class="product-price">Kes 900</h2>
+                <p class="product-remove">
+                    <i class="fa fa-trash" aria-hidden="true"></i>
+                    <span class="Remove">Remove</span>
+                </p>
+                <p class="Checkout">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    <span class="Checkout">Checkout</span>
+                </p>
+
             </div>
         </div>
-        <div class="Cart-total"></div>
+    </div>
+    <div class="Cart-total"></div>
     </div>
 
 

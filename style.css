@@ -133,8 +133,11 @@ margin-left: -15px
 }
 
 .Container{
-    max-width: 1200px;
+    max-width: 3000px;
     margin: auto;
+    height: fit-contents;
+    position: absolute;
+    display: block;
 }
 .Container > h1{
     padding: 20px 0;
@@ -174,16 +177,17 @@ margin-left: -15px
     -o-transform: scale(1.04);
 }
 .product-info{
-    padding: 20px;
+    padding: 10px;
     width: 100%;
     position: relative;
 }
 .product-name, .product-price, .product-quantity{
     margin-bottom: 20px;
+    padding-top: 30px;
 }
 .product-remove{
     position: relative;
-    bottom: 20px;
+    bottom: 10px;
     right: 20px;
     padding: 10px 25px;
     background-color: green;
@@ -202,13 +206,16 @@ margin-left: -15px
     color: green;
     font-weight: 600;
     border: 1px solid green;
+    padding-top: -20px;
 }
 .product-quantity{
-    padding-bottom: 5px;
+    padding-bottom: -30px;
+    padding-top: 20px;
+    bottom: 30px;
     
 }
 .product-quantity > input{
-    width: 40px;
+    width: 60px;
     text-align: center;
     height: 30px;
     font-style: oblique;
@@ -217,5 +224,68 @@ margin-left: -15px
 .product-price{
     background-color: lightblue;
     color: red;
+    padding-top: 10px;
+}
+.Crust-types, .Crust{
+    padding-top: 5px;
+    align-items: center;
+    font-size: larger;
+    
 }
 
+.Pizza-requisition-form{
+    
+    padding-top: 20px;
+    max-width: 350px;
+    margin: auto;
+
+}
+.Checkout{
+    mask-position: right;
+    bottom: -30px;
+    right: 20px;
+    padding-top: 80px;
+    background-color: rgb(231, 199, 17);
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding-top: 5px;
+    display: -ms-flexbox;
+    float: left;
+}
+.Checkout:hover{
+    background-color: rgb(9, 25, 253);
+    padding-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding-top: 20px;
+    display: 
+    right: 20px;
+    position: relative;
+    flex-grow: 
+}
+.Pizza-requisition-form{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+input [type=text], select{
+    max-width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    box-sizing: border-box;
+    
+}
