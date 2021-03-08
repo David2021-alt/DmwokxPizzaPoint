@@ -154,18 +154,12 @@ body{
     color: green;
     padding: 5px;
     background-color: honeydew;
+    object-fit: cover;
+
 }
 .nav ul a{
-    display: inline-block;
-        padding: 20px;
-        text-decoration: none;
-        color: #000;
-        transition: 0.2s ease-in;
-        font-size: 18px;
-        display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    padding: 30px 20px;
-    grid-row-gap: 30px;
-    color: white;
+    background-color: khaki;
 }
-
+.form-control{
+    background-color: ;
+}
