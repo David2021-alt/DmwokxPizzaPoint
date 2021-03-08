@@ -139,5 +139,33 @@ body{
     padding-top: 10px;
     color: tomato;
 }
-
+.form-group{
+    padding: 10px;
+    height: max-content;
+    counter-increment: inherit;
+    background-color: lavender;
+    color: black;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+    
+.fa{
+    text-align: center;
+    color: green;
+    padding: 5px;
+    background-color: honeydew;
+}
+.nav ul a{
+    display: inline-block;
+        padding: 20px;
+        text-decoration: none;
+        color: #000;
+        transition: 0.2s ease-in;
+        font-size: 18px;
+        display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 30px 20px;
+    grid-row-gap: 30px;
+    color: white;
+}
 
