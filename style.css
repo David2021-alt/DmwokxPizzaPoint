@@ -48,9 +48,10 @@ nav ul a:hover{
     -ms-transition: 0.2s;
     -o-transition: 0.2s;
     padding-left: 10px;
-    padding-right: 10px;
+    padding-right: 50px;
     padding: auto;
     padding-left: 20px;
+    padding: 0 4px 8px;
 }
 .item:hover{
     transform: scale(1.04);
@@ -89,7 +90,7 @@ nav ul a:hover{
     -ms-transform: scale(1.08);
     -o-transform: scale(1.08);
 }
-@media screen and (max-width: 1000px){
+/* @media screen and (max-width: 1000px){
     .items{
         grid-template-columns: repeat(2,1fr);
     }
@@ -98,7 +99,7 @@ nav ul a:hover{
     .items{
         grid-template-columns: repeat(2,1fr);
     }
-}
+} */
 body{
     background-image: url("https://images.ctfassets.net/cnu0m8re1exe/7bvBF6E4WXVLLIsH88lXcC/5a3b7483a82fb30248e7d1c7856be6ec/20-things-color.jpg?w=650&h=433&fit=fill");
 }
@@ -160,6 +161,11 @@ body{
 .nav ul a{
     background-color: khaki;
 }
-.form-control{
-    background-color: ;
+.form-control .button{
+
+}
+nav ul a .fa{
+    background-color:white;
+        display: grid;
+        place-items: center;
 }
