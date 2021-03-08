@@ -47,7 +47,9 @@ nav ul a:hover{
     -moz-transition: 0.2s;
     -ms-transition: 0.2s;
     -o-transition: 0.2s;
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding: auto;
 }
 .item:hover{
     transform: scale(1.04);
