@@ -50,6 +50,7 @@ nav ul a:hover{
     padding-left: 10px;
     padding-right: 10px;
     padding: auto;
+    padding-left: 20px;
 }
 .item:hover{
     transform: scale(1.04);
@@ -104,6 +105,7 @@ body{
 .container{
     float: right;
     padding-block: 10px;
+    padding-left: 20px;
 }
 .btn{
     adding: 5px 30px;
@@ -135,5 +137,7 @@ body{
     -ms-transform: scale(1.08s);
     -o-transform: scale(1.08s);
     padding-top: 10px;
+    color: tomato;
 }
+
 
