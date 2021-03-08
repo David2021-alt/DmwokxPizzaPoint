@@ -101,5 +101,39 @@ nav ul a:hover{
 body{
     background-image: url("https://images.ctfassets.net/cnu0m8re1exe/7bvBF6E4WXVLLIsH88lXcC/5a3b7483a82fb30248e7d1c7856be6ec/20-things-color.jpg?w=650&h=433&fit=fill");
 }
-
+.container{
+    float: right;
+    padding-block: 10px;
+}
+.btn{
+    adding: 5px 30px;
+    border: none;
+    outline: none;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+    padding: 10px;
+    border-top: yellow;
+}
+.btn:hover{
+    transform: scale(1.08);
+    -webkit-transform: scale(1.08s);
+    -moz-transform: scale(1.08s);
+    -ms-transform: scale(1.08s);
+    -o-transform: scale(1.08s);
+    padding-top: 10px;
+}
 
