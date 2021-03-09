@@ -1,7 +1,7 @@
 let carts = document.querySelectorAll('.add-cart');
 
 let products = {
-    {
+    
     name: "small Size Pizza"
     price: 900,
         inCart: 0;

@@ -53,8 +53,8 @@ nav ul a:hover{
     padding-left: 20px;
     padding: 0 4px 8px; */
     overflow: hidden;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
     position: relative;
 }
 .item:hover{
